@@ -1,0 +1,5 @@
+.H 1 jocProves2 1.0 1.0 1.0
+.D 5 1 d1 10 100.0 2 d2 10 100.0 3 d3 10 100.0 4 d4 10 100.0 5 d5 10 100.0
+.C 2015 2 0201 2 2 2 - 0301 2 2 2 -
+.S 0 jocproves2 - 1 6 1/2/15 manana 1/2/15 tarde 1/2/15 noche 1/3/15 manana 1/3/15 tarde 1/3/15 noche 600.0 2 6 1/2/15 manana 1/2/15 tarde 1/2/15 noche 1/3/15 manana 1/3/15 tarde 1/3/15 noche 600.0 3 0 0.0 4 0 0.0 5 0 0.0
+.NS 0

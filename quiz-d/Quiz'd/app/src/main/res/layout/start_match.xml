@@ -1,0 +1,89 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.ryblade.quizd.PlayActivity">
+
+
+    <RadioGroup
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="83dp"
+        android:id="@+id/radioGroup">
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Easy (5 Words)"
+            android:id="@+id/easyBtn"
+            android:checked="false"
+            android:layout_gravity="center_horizontal" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Medium (10 Words)"
+            android:id="@+id/mediumBtn"
+            android:layout_gravity="center_horizontal"
+            android:checked="false" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hard (15 Words)"
+            android:id="@+id/hardBtn"
+            android:layout_gravity="center_horizontal"
+            android:checked="false" />
+    </RadioGroup>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Choose a Level:"
+        android:id="@+id/textView4"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="45dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentStart="true"
+        android:textSize="25dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Choose the Languages you want to play:"
+        android:id="@+id/textView5"
+        android:layout_below="@+id/radioGroup"
+        android:layout_marginTop="30dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentStart="true"
+        android:textSize="25dp" />
+
+    <Spinner
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/lang1Spin"
+        android:layout_below="@+id/textView5"
+        android:layout_alignParentStart="true"
+        android:spinnerMode="dropdown"
+        android:minHeight="30dp" />
+
+    <Spinner
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/lang2Spin"
+        android:layout_below="@+id/lang1Spin"
+        android:layout_alignParentStart="true"
+        android:spinnerMode="dropdown"
+        android:minHeight="30dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Play"
+        android:id="@+id/playBtn"
+        android:layout_below="@+id/lang2Spin"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="51dp" />
+</RelativeLayout>
+

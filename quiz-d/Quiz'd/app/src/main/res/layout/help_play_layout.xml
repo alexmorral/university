@@ -1,0 +1,35 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.ryblade.quizd.PlayActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/firstLabel"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:text="On the &lt;b>NEW MATCH&lt;/b> screen, you have to select the level you want to play. You also have to select the languages you want to play and click on &lt;img src=&apos;play.png&apos;/>."
+        android:layout_marginTop="50dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="On the &lt;b>MATCH&lt;/b> screen, you have to fill the blank text field with the word you guess and click on &lt;img src=&apos;next.png&apos; />."
+        android:id="@+id/secondLabel"
+        android:layout_below="@+id/firstLabel"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="When you have finished the match, you will see your score. You can either save your score by filling the blank text field with your name and clicking on &lt;img src=&apos;save.png&apos;/> or exiting the screen by clicking on &lt;img src=&apos;exit.png&apos;/>."
+        android:id="@+id/thirdLabel"
+        android:layout_below="@+id/secondLabel"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp" />
+
+</RelativeLayout>
+

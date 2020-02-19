@@ -1,0 +1,51 @@
+//
+//  Whelp.pch
+//  Whelp
+//
+//  Created by Alex Morral on 5/11/15.
+//  Copyright © 2015 Alex Morral. All rights reserved.
+//
+
+
+#ifndef TARGET_OS_IOS
+  #define TARGET_OS_IOS TARGET_OS_IPHONE
+#endif
+
+#import "AppDelegate.h"
+
+#import "SVProgressHUD.h"
+#import "Utils.h"
+
+#define typeUser @"usuaris"
+#define typeActivity @"activitats"
+#define typeScore @"puntuacio"
+#define typeComment @"puntuacio"
+
+#define completadasvoluntari @"/voluntari/completades/"
+#define nocompletadasvoluntari @"/voluntari/no_completades/"
+#define enprocesovoluntari @"/voluntari/en_proces/"
+
+#define completadasdiscapacitat @"/discapacitat/completades/"
+#define enprocesodiscapacitat @"/discapacitat/en_proces/"
+#define nocompletadasdiscapacitat @"/discapacitat/no_completades/"
+
+#define puntuacioMillor @"puntuacioMillor"
+#define comentarisWhelper @"puntuacio/"
+
+#define marcarEnProces @"activitats/marcar_en_proces/"
+#define marcarAcabada @"activitats/marcar_acabada/"
+#define cancelarActivitat @"activitats/cancelar/"
+#define unirActivitat @"activitats/unio"
+#define reportarUsuari @"activitats/reportar/usuari"
+
+
+
+#define urlApp @"http://gentle-shelf-9505.herokuapp.com/api/v1/"
+//#define urlApp @"http://localhost:8000/api/v1/"
+
+#define purpleColor 0x3F2F8F
+
+#define appDelegate ((AppDelegate *)[[UIApplication sharedApplication] delegate])
+
+#define UIColorFromHex(rgbValue) [UIColor colorWithRed:((float)((rgbValue & 0xFF0000) >> 16))/255.0 green:((float)((rgbValue & 0xFF00) >> 8))/255.0 blue:((float)(rgbValue & 0xFF))/255.0 alpha:1.0]
+

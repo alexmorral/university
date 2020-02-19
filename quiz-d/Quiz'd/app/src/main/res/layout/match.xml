@@ -1,0 +1,98 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.ryblade.quizd.PlayActivity">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Word X"
+        android:id="@+id/wordNumLabel"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="29dp"
+        android:textSize="30dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentStart="true"
+        android:gravity="center_horizontal" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Score X"
+        android:id="@+id/scoreLabel"
+        android:layout_below="@+id/wordNumLabel"
+        android:layout_marginTop="20dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentStart="true"
+        android:gravity="center_horizontal"
+        android:textSize="20dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Language 1"
+        android:id="@+id/lang1Label"
+        android:layout_marginTop="30dp"
+        android:textSize="30dp"
+        android:layout_below="@+id/scoreLabel"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Word"
+        android:id="@+id/wordLabel"
+        android:layout_below="@+id/lang1Label"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="19dp"
+        android:layout_alignParentEnd="true"
+        android:gravity="center_horizontal"
+        android:textSize="20dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Language 2"
+        android:id="@+id/lang2Label"
+        android:textSize="30dp"
+        android:layout_below="@+id/wordLabel"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="28dp"
+        android:layout_alignParentEnd="true" />
+
+    <EditText
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/wordField"
+        android:layout_below="@+id/lang2Label"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="21dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Next"
+        android:id="@+id/nextBtn"
+        android:layout_below="@+id/wordField"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="47dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hits: 0"
+        android:id="@+id/hitsLabel"
+        android:layout_below="@+id/scoreLabel"
+        android:layout_toStartOf="@+id/nextBtn" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Fails: 0"
+        android:id="@+id/failsLabel"
+        android:layout_below="@+id/scoreLabel"
+        android:layout_toEndOf="@+id/nextBtn" />
+</RelativeLayout>
+

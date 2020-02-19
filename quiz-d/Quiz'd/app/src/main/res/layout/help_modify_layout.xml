@@ -1,0 +1,55 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.ryblade.quizd.PlayActivity">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/firstLabel"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:text="You can add Languages to the appliaction by clicking on + at the top bar."
+        android:layout_marginTop="50dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="You can see the words of a Language by clicking on any language."
+        android:id="@+id/secondLabel"
+        android:layout_below="@+id/firstLabel"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="35dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="You can add a Word to a language by filling the text field and clicking &quot;Add Word&quot;."
+        android:id="@+id/thirdLabel"
+        android:layout_below="@+id/secondLabel"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="35dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="You can see the Translations of a word by clicking on that word."
+        android:id="@+id/fourthLabel"
+        android:layout_below="@+id/thirdLabel"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="35dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="You can add a translation by clicking on &quot;Add translation&quot; and selecting word you want to associate the word with."
+        android:id="@+id/fifthLabel"
+        android:layout_below="@+id/fourthLabel"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="35dp" />
+
+
+</RelativeLayout>
+

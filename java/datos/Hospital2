@@ -1,0 +1,8 @@
+.H 2 JocProvesComplet 1.0 1.0 3.0
+.D 5 1 Sergi 2 100.0 2 Oscar 6 100.0 3 Axel 2 100.0 4 Felix 2 100.0 5 Alex 2 100.0
+.C 2015 3 0104 1 1 1 - 0204 1 0 1 - 3112 2 1 1 noche_vieja
+.R 1 2 0 MAX_Turnos_Rango 01-01-2015 31-12-2015 1 1 NOT_Turno noche 2 1 0 MAX_Turnos_por_Dia 2 3 3 0 NOT_Especial noche_vieja 1 NOT_Fecha 01-04-2015 2 NOT_Dia_Semana jueves 4 3 0 NOT_Dia_Mes 31 1 NOT_Dia_Mes 2 2 NOT_Dia_Semana miercoles 5 3 0 XOR 2 02042015 manana 01042015 noche 1 NOT_Dia_Mes 31 2 MAX_Turnos_por_Dia 1
+.S 0 insolucioCorrecta %- 1 1 12/31/15 manana 100.0
+.NS 0 12/31/15 noche (1)
+.S 1 insolucionCorrecta %- 1 1 12/31/15 manana 100.0
+.NS 1 12/31/15 noche (1)
